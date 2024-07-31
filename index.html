@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game TopUp</title>
+    <!-- google fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- costome style -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.response.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-lg-4 shadow-sm position-fixed w-100 z-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-1">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">TopUp</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Gift Card</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Subscriptions</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Affiliate</a>
+                            <ul class="dropdown-menu rounded-0">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="" class="nav_login_btn d-none d-md-block"><i class="fa-solid fa-circle-user"></i></a>
+                    <a href="" class="btn btn-dark rounded-0 d-block d-md-none">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <div class="alert alert-success slide_container rounded-0">
+            <small class="sliding_text">১৮ বছরের নিচে কেউ অর্ডার করতে অবশ্যই বাবা-মায়ের অনুমতি লাগবে। অভিভাবকের
+                অনুমতি
+                ছাড়া অর্ডার করা সম্পুর্নভাবে নিষিদ্ধ। আমাদের সার্ভিস ২৪ ঘন্টা চালু থাকে, তবে ভোর ৫ টা থেকে সকাল ৬ টা
+                পর্যন্ত অর্ডার করলে ডেলিভারি পেতে কিছুটা সময় লাগতে পারে। অর্ডার করুন এখনই, ধন্যবাদ 😊</small>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible rounded-0 fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- banner section -->
+        <section class="banner_section pt-2 pb-3">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/banner-1.webp" class="d-block w-100" alt="carousel banner-1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/banner-2.webp" class="d-block w-100" alt="carousel banner-2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/banner-3.webp" class="d-block w-100" alt="carousel banner-3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/banner-4.webp" class="d-block w-100" alt="carousel banner-4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- event section -->
+        <section class="event_section py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-content-between border-bottom border-warning my-3">
+                        <h4 class="text-warning text-uppercase">Event Top Up</h4>
+                        <a href="" class="text-decoration-none text-warning">See More</a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">10%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">Free</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">22%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- game topup section -->
+        <section class="game_topup_section py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-content-between border-bottom border-warning my-3">
+                        <h4 class="text-warning text-uppercase">Event Top Up</h4>
+                        <a href="" class="text-decoration-none text-warning">See More</a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">10%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">Free</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">22%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- social topup section -->
+        <section class="social_topup_section py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-content-between border-bottom border-warning my-3">
+                        <h4 class="text-warning text-uppercase">Event Top Up</h4>
+                        <a href="" class="text-decoration-none text-warning">See More</a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">10%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">Free</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">22%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- buy vouchers section -->
+        <section class="buy_vouchers_section py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center justify-content-between border-bottom border-warning my-3">
+                        <h4 class="text-warning text-uppercase">Event Top Up</h4>
+                        <a href="" class="text-decoration-none text-warning">See More</a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">10%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <!-- <p class="event_discount">10%</p> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">Free</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">22%</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                        <div class="card rounded-0 shadow-sm" style="position: relative;">
+                            <img src="assets/images/event-1.webp" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body p-0">
+                                <a href="" class="btn card_btn fw-semibold w-100 rounded-0">Free Fire</a>
+                            </div>
+                            <p class="event_discount">8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
